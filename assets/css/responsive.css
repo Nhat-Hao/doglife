@@ -1,0 +1,122 @@
+/* Mobile & Tablet*/
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width:961px) and (max-width:1023px) {
+    .hide-on-tablet{
+        display: none;
+    }
+    .wide {
+        width: 900px;
+    }
+    .header__main{
+        height: 1500px;
+    }
+    .header__main-title{
+        margin-top: 350px;
+    }
+    .header__main-img .header__home-img--big{
+        height: 400px;
+        margin-top: 350px;
+    }
+    .header__main-img .header__home-img--small{
+        height: 350px;
+        top: 80%;
+        right: 50%;
+    }
+    .navbar__responsive i{
+        display: block;
+    }
+
+}
+@media (min-width:740px) and (max-width:960px) {
+    .wide {
+        width: 700px;
+    }
+
+    .header__main{
+        height: 1500px;
+    }
+    .header__main-title{
+        margin-top: 350px;
+    }
+    .header__main-title h1{
+        font-size: 32px;
+    }
+    .header__main-img .header__home-img--big{
+        height: 400px;
+        margin-top: 350px;
+    }
+    .header__main-img .header__home-img--small{
+        height: 350px;
+        top: 80%;
+        right: 50%;
+    }
+    .navbar__responsive i{
+        display: block;
+    }
+}
+/* Mobile */
+@media (min-width:581px) and (max-width: 739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .wide {
+        width: 550px;
+    }
+
+    .header__main-title{
+        align-items: center;
+        text-align: center;
+    }
+    .header__main-title h1{
+        font-size: 32px;
+    }
+    .navbar__responsive i{
+        display: block;
+    }
+    .header__main-img .header__home-img--big{
+        transform: rotate(0deg);
+        align-items: center;
+    }
+    .header__main-img .header__home-img--small{
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 580px) {
+    .wide {
+        width: 350px;
+    }
+    .g-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .header__main-title{
+        align-items: center;
+        text-align: center;
+    }
+    .header__main-title h1{
+        font-size: 32px;
+    }
+    .header__main-title p{
+        width: 100%;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+    .navbar__responsive i{
+        display: block;
+
+    }
+    .header__main-img .header__home-img--big{
+        transform: rotate(0deg);
+    }
+    .header__main-img .header__home-img--small{
+        transform: rotate(0deg);
+    }
+}
